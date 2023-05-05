@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class ModuleTwoA {
-    ChromeDriver driver = new ChromeDriver();
+    //ChromeDriver driver = new ChromeDriver();
     @Test
     public void PasteBin() throws InterruptedException {
         WebDriver driver= BrowserParameter.setupBrowser("chrome","https://pastebin.com/");

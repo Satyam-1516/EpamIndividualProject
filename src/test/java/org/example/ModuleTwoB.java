@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class ModuleTwoB {
-    ChromeDriver driver = new ChromeDriver();
+    //ChromeDriver driver = new ChromeDriver();
 
     @Test
     public void GoogleCloud() throws InterruptedException {
